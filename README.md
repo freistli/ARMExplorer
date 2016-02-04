@@ -8,6 +8,7 @@ This project has dependencies on OAuth authentication.
 ### Create AAD application
 1. Go to [Azure Portal](https://manage.windowsazure.com/) while logged in as an Org ID (i.e. not MSA) and create AAD Application. You may create an application on existing AAD directory or a new directory altogether.
 1. Select `Add an application my organization is developing`
+    ![aad](https://cloud.githubusercontent.com/assets/8623897/12808359/428d3b32-cb51-11e5-9a89-f37840674676.png)
 1. Enter any name for application name.
 1. Select `WEB APPLICATION AND/OR WEB API`
 1. Enter `https://localhost:44306/` as `SIGN ON URL` 
