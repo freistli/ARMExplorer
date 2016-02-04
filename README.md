@@ -15,6 +15,7 @@ This project has dependencies on OAuth authentication.
 1. For `APP ID URL`, enter something like `https://davidebboslingshot.onmicrosoft.com/`.
 1. Once created, click `CONFIGURE` tab
 1. On `Permission to other applications`, add `Windows Azure Service Management API` and check `Access Azure Service Management` for `Delegated Permissions` and save.
+![aad1](https://cloud.githubusercontent.com/assets/8623897/12808756/594c170a-cb54-11e5-8701-77afa8a52770.png)
 
 ### Fix AADClientId and AADClientSecret in codes
 1. Copy `CLIENT ID` and paste it in [this line](https://github.com/projectkudu/ARMExplorer/blob/master/Modules/ARMOAuthModule.cs#L38), replacing `Environment.GetEnvironmentVariable("AADClientId")`.
